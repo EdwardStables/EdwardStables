@@ -9,3 +9,6 @@ My Github contains a few personal projects, mostly for learning new technolgies 
 - ![A software raytracer written in Julia](https://github.com/EdwardStables/julia_ray_tracing) (personal project to learn more about ray tracing)
 
 ![alt text](https://github.com/EdwardStables/julia_ray_tracing/blob/master/demo/animate.gif)
+
+My profile picture is my dog Kagi. He's a rescue and is very cute.
+
