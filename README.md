@@ -2,6 +2,8 @@
 
 I'm Ed (or Edward, just not Eddie), a hardware engineer working at Imagination Technologies. 
 
+That profile picture is my dog Kagi. He's incredibly lazy and fantatastic foot warmer.
+
 My Github contains a few personal projects, mostly for learning new technologies and ideas, and a bunch of university projects. 
 
 I'm currently working on a few things:
@@ -16,5 +18,4 @@ A few past highlights are:
 
 ![alt text](https://github.com/EdwardStables/julia_ray_tracing/blob/master/demo/animate.gif)
 
-My profile picture is my dog Kagi. He's a rescue and is very cute.
 
