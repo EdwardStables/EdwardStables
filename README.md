@@ -7,6 +7,7 @@ That profile picture is my dog Kagi. He's incredibly lazy and fantatastic foot w
 My Github contains a few personal projects, mostly for learning new technologies and ideas, and a bunch of university projects. 
 
 I'm currently working on a few things:
+- ![Advent of Code 2021](https://github.com/EdwardStables/AoC2021) - Having a great time completing this year's set of tasks. Trying to go as fast as possible in python without numpy (or similar).
 - ![Bite](https://github.com/EdwardStables/Bite) - a simple Python library for making life easier when working with numbers in a hardware design/computer engineering setting. 
 - A FizzBuzz implementation in hardware to try and get super high throughput, and to learn CocoTB. Repo to be made public when it is a little more complete.
 - A very simple RISC-V implementation in hardware, on hold until the above project is done.
