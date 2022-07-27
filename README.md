@@ -1,6 +1,6 @@
 ### Hi there!
 
-I'm Ed (or Edward, just not Eddie), a hardware engineer working at Imagination Technologies. 
+I'm Ed (or Edward, just not Eddie), a hardware engineer working at Innosilicon developing GPU technology. 
 
 That profile picture is my dog Kagi. He's incredibly lazy and fantatastic foot warmer.
 
