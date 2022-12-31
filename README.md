@@ -1,24 +1,12 @@
 ### Hi there!
 
-I'm Ed (or Edward, just not Eddie), a hardware engineer working at Innosilicon developing GPU technology. 
+I'm Ed, a hardware engineer working at Innosilicon developing GPU technology. 
 
-That profile picture is my dog Kagi. He's incredibly lazy and fantatastic foot warmer.
-
-My Github contains a few personal projects, mostly for learning new technologies and ideas, and a bunch of university projects. 
-
-I'm currently working on a few things:
-- ![Chess](https://github.com/EdwardStables/chess/) - Python library and web server for playing chess, for reminding myself how web design works, as well as learning flask and pytest.
-- ![Bite](https://github.com/EdwardStables/Bite) - a simple Python library for making life easier when working with numbers in a hardware design/computer engineering setting. 
-- A FizzBuzz implementation in hardware to try and get super high throughput, and to learn CocoTB. Repo to be made public when it is a little more complete.
-- A very simple RISC-V implementation in hardware, on hold until the above project is done and I can rewrite my homebrew testbench in CocoTB
-
+I generally have a few ongoing personal projects, currently my main projects are an FPGA VGA driver (not yet public), and a ![VCD viewer](https://github.com/EdwardStables/pge_wave) using the fantastic ![olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine).
 
 A few past highlights are:
-- ![Advent of Code 2021](https://github.com/EdwardStables/AoC2021) - Enjoyed last year's AoC, completed most of the tasks but didn't have the time as we got closer to Christmas.
-- ![High performance derivative free numerical optimisation](https://github.com/ImperialCollegeLondon/DirectSearch.jl) (masters thesis)
-- ![STUART, a robot designed to test human/machine interactions](https://github.com/EdwardStables/STUART) (a fun uni project)
-- ![A software raytracer written in Julia](https://github.com/EdwardStables/julia_ray_tracing) (personal project to learn more about ray tracing)
-
-![alt text](https://github.com/EdwardStables/julia_ray_tracing/blob/master/demo/animate.gif)
-
-
+- ![Advent of Code](https://github.com/EdwardStables/AoC)
+- ![The Weather Garden](https://themeaningofluff.itch.io/the-weather-garden). OneLoneCoder 2022 Code Jam Entry. Unfinished and buggy, but lots of fun to make.
+- ![High performance derivative free numerical optimisation](https://github.com/ImperialCollegeLondon/DirectSearch.jl). My final year university project. 
+- ![STUART](https://github.com/EdwardStables/STUART). A very enjoyable university final year group project, a robot designed to test human/machine interaction.
+- ![Software raytracer](https://github.com/EdwardStables/julia_ray_tracing). A Julia implementation of The Ray Tracer Challenge.
