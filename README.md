@@ -10,12 +10,12 @@ Currently this includes a [set of scripts](https://github.com/EdwardStables/VPU_
 
 ## Wave View and VCD Parser
 
-I've never gotten on well with GTKWave, so decided to make [my own wave viewer](https://github.com/EdwardStables/WaveViewer). For rendering this uses the fantastic [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine), and has a custom [VCD parser](https://github.com/EdwardStables/vcd_parser) using ANTLR. Eventually this will be embedded into a proper GUI framework and add support for additional wave formats and scriptability.
+I've never gotten on well with GTKWave, so decided to make [my own wave viewer](https://github.com/EdwardStables/WaveViewer). For rendering this uses the fantastic [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine), and has a custom [VCD parser](https://github.com/EdwardStables/vcd_parser) using ANTLR. This has lua-based scripting using [sol3](https://github.com/ThePhD/sol2), but this isn't in the public version yet. Eventually this will be embedded into a proper GUI framework and become more than just a toy.
 
 ## Smaller Highlights
 
 ### Game Jams
-I'm not good at making games, but I do enjoy the odd jam. These are all implemented in C++ using the olcPixelGameEngine, and my own library of utilities and extensions.
+I'm not good at making games, but I do enjoy the occasional jam. These are all implemented in C++ using the olcPixelGameEngine, and my own library of utilities and extensions.
 - [The Weather Garden](https://themeaningofluff.itch.io/the-weather-garden). OneLoneCoder 2022 Code Jam Entry. Unfinished and buggy, but lots of fun to make.
 - [The Recycling Button](https://themeaningofluff.itch.io/the-recycling-button). GMTK 2023 Game Jam Entry. I was very squeezed for time on this one, but was pleased to get the very basics of a factory game in there.
 - [Don't Crash!](https://themeaningofluff.itch.io/dont-crash). OneLoneCoder 2023 Code Jam Entry. Avoided the bugs, but forgot to add very much gameplay.
