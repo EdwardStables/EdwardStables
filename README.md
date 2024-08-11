@@ -10,7 +10,7 @@ Currently this includes a [set of scripts](https://github.com/EdwardStables/VPU_
 
 ## Wave View and VCD Parser
 
-I've never gotten on well with GTKWave, so decided to make [my own wave viewer](https://github.com/EdwardStables/pge_wave). For rendering this uses the fantastic [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine), and has a custom [VCD parser](https://github.com/EdwardStables/vcd_parser) using ANTLR. Eventually this will be embedded into a proper GUI framework and add support for additional wave formats and scriptability.
+I've never gotten on well with GTKWave, so decided to make [my own wave viewer](https://github.com/EdwardStables/WaveViewer). For rendering this uses the fantastic [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine), and has a custom [VCD parser](https://github.com/EdwardStables/vcd_parser) using ANTLR. Eventually this will be embedded into a proper GUI framework and add support for additional wave formats and scriptability.
 
 ## Smaller Highlights
 
