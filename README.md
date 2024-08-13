@@ -1,12 +1,14 @@
 ### Hi there!
 
-I'm Ed, a hardware engineer working at Innosilicon developing GPU technology. Here are some of my ongoing projects, these are slow going until I finish my masters but should pick up after that.
+I'm Ed, a hardware engineer working at Innosilicon developing GPUs. Here are some of my ongoing projects, these are slow going until I finish my masters but should pick up after that.
 
 ## VPU (Voxel Processing Unit)
 
 A just-for-fun voxel based display processor for developing computer architecture and digital design skills. Still in an early stage developing system infrastructure.
 
 Currently this includes a [set of scripts](https://github.com/EdwardStables/VPU_ASM) for generating ISA definitions, and a C++ [cycle-accurate](https://github.com/EdwardStables/VPU_Model) simulation of the RISC style management core, and the DMA unit. I'm slowly implementing this in SystemVerilog when time permits, but this is not public yet.
+
+This also includes a [VGA driver](https://github.com/EdwardStables/VGA_Driver) design. I put this together for fun a while ago, but only recently resurrected it for this VPU project. Currently this just sends some hard-coded text output to a 1280x1024 VGA display. It's also acting as a test-bed for accessing RAM on the FPGA board.
 
 ## Wave View and VCD Parser
 
