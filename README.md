@@ -1,12 +1,16 @@
 ### Hi there!
 
-I'm Ed, a hardware engineer working at Innosilicon developing GPUs. Here are some of my ongoing projects, these are slow going until I finish my masters but should pick up after that.
+I'm Ed, a hardware engineer working at Innosilicon developing GPU texture processing hardware and internal tooling. This page links to some of my personal projects.
 
 ## VPU (Voxel Processing Unit)
 
-A just-for-fun voxel based display processor for developing computer architecture and digital design skills. Still in an early stage developing system infrastructure.
+A just-for-fun voxel based display processor. This encompasses a hardware simulation (C++), hardware design (SystemVerilog), high level algorithm test platform (Zig), DSL compiler (Zig), and various python scripts to tie everything together.
 
-Currently this includes a [set of scripts](https://github.com/EdwardStables/VPU_ASM) for generating ISA definitions, and a C++ [cycle-accurate](https://github.com/EdwardStables/VPU_Model) simulation of the RISC style management core, and the DMA unit. I'm slowly implementing this in SystemVerilog when time permits, but this is not public yet.
+- The hardware definitions, test programs, and assembler are found [here](https://github.com/EdwardStables/VPU_ASM).
+- The C++ simulation of the hardware is [here](https://github.com/EdwardStables/VPU_Model).
+- A real-time simulator debugger is [here](https://github.com/EdwardStables/VPU_Inspector), written in C++ and communicating with the simulator using gRPC to monitor the framebuffer and step the simulation.
+
+The hardware design and compiler won't be made public until they're at least partially usable.
 
 This also includes a [VGA driver](https://github.com/EdwardStables/VGA_Driver) design. I put this together for fun a while ago, but only recently resurrected it for this VPU project. Currently this just sends some hard-coded text output to a 1280x1024 VGA display. It's also acting as a test-bed for accessing RAM on the FPGA board.
 
@@ -18,15 +22,16 @@ I've never gotten on well with GTKWave, so decided to make [my own wave viewer](
 
 ### Game Jams
 I'm not good at making games, but I do enjoy the occasional jam. These are all implemented in C++ using the olcPixelGameEngine, and my own library of utilities and extensions.
-- [The Weather Garden](https://themeaningofluff.itch.io/the-weather-garden). OneLoneCoder 2022 Code Jam Entry. Unfinished and buggy, but lots of fun to make.
-- [The Recycling Button](https://themeaningofluff.itch.io/the-recycling-button). GMTK 2023 Game Jam Entry. I was very squeezed for time on this one, but was pleased to get the very basics of a factory game in there.
+- [Drowning Isn't Fun](https://themeaningofluff.itch.io/drowning-isnt-fun). OneLoneCoder 2024 Code Jam Entry. My first game jam entry that is actually somewhat fun to play, if not well balanced.
 - [Don't Crash!](https://themeaningofluff.itch.io/dont-crash). OneLoneCoder 2023 Code Jam Entry. Avoided the bugs, but forgot to add very much gameplay.
+- [The Recycling Button](https://themeaningofluff.itch.io/the-recycling-button). GMTK 2023 Game Jam Entry. I was very squeezed for time on this one, but was pleased to get the very basics of a factory game in there.
+- [The Weather Garden](https://themeaningofluff.itch.io/the-weather-garden). OneLoneCoder 2022 Code Jam Entry. Unfinished and buggy, but lots of fun to make.
 
-### Random code
-- [Advent of Code](https://github.com/EdwardStables/AoC)
+### Random Stuff
+- [Advent of Code](https://github.com/EdwardStables/AoC). Solutions and test harness. Implemented in Python and Zig.
 - [Software raytracer](https://github.com/EdwardStables/julia_ray_tracing). A Julia implementation of The Ray Tracer Challenge.
 
 ### University
-A few interesting highlights.
+A few interesting highlights:
 - [High performance derivative free numerical optimisation](https://github.com/ImperialCollegeLondon/DirectSearch.jl). My final year university project. 
 - [STUART](https://github.com/EdwardStables/STUART). A very enjoyable university final year group project, a robot designed to test human/machine interaction.
